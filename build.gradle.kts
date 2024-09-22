@@ -20,6 +20,7 @@ dependencies {
     implementation(libs.kotlin.stblib)
     implementation(libs.kotlin.coroutines.test)
     implementation(libs.kotlin.coroutines.core)
+    implementation(libs.gson)
     testImplementation(libs.junit.api)
     testImplementation(libs.junit.engine.jupiter)
     testImplementation(libs.assertj)
